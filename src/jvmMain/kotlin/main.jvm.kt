@@ -1,4 +1,5 @@
 actual object TON {
-    actual fun connectWallet() {
+    actual suspend fun connectWallet(): String {
+        return "testingAddress"
     }
 }
